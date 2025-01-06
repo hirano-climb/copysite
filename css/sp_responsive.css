@@ -1,0 +1,457 @@
+@charset "utf-8";
+
+@media (max-width: 768px) {
+
+    .sp_br{
+        display: block;
+    }
+
+    nav .ber .logo{
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    nav .ber .logo img{
+        width: 100px;
+    }
+    nav .ber .logo p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    nav .contact{
+        visibility: hidden;
+    }
+    nav .sp_contact{
+        visibility: visible;
+    }
+    nav .sp_contact .btn {
+        display: block;
+        color: white;
+        background-color: rgb(219, 91, 91);
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        font-size: 0.8rem;
+    }
+    nav .sp_contact img {
+        margin-top: 10px;
+        width: 20px;
+    }
+    nav .sp_contact p {
+        margin-top: 0;
+    }
+    nav .sp_contact a:hover{
+        text-decoration: underline 1px white;
+        text-underline-offset: 1px;
+    }
+    
+    header{
+        background: url(/image/mainsp.jpg) no-repeat center / cover;
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+    header .title h1{
+        font-size: 1.2rem;
+    }
+    header .title p{
+        font-size: .9rem;
+    }
+
+    #main_1 .recruit{
+        font-size: 1rem;
+    }
+
+    #main_2{    
+        height: 800px;
+    }
+    #main_2 .content .title{
+        font-size: 1.2rem;
+    }
+    #main_2 .content p{
+        font-size: .9rem;
+    }
+   
+    #main_3 .title{
+        font-size: 1.2rem;
+    }
+    #main_3 .text{
+        font-size: 1rem;
+    }
+    #main_3 .skill li{
+        font-size: .8rem;
+    }
+    #main_3 .skill li img{
+        width: auto;
+        height: 30px;
+    }
+
+    #main_4{    
+        background: url(/image/aboutsecondbgsp.jpg) no-repeat center / cover;
+        width: 100%;
+        height: 600px;
+        display: block;
+        position: relative;
+    }
+    #main_4 .content h2{
+        font-size: 1.2rem;
+    }
+    #main_4 .content h3{
+        font-size: 1rem;
+    }
+    #main_4 li{
+        max-width: none;
+        width: 90%;
+    }
+    #main_4 li .text_1{
+        font-size: .9rem;
+        margin: 10px 50px;
+    }
+    #main_4 li .text_2{
+        font-size: .8rem;
+    }
+    #main_4 li .text_3{
+        font-size: .8rem;
+    }
+
+    #main_5 p {
+        font-size: .9rem;
+    }
+
+    #main_6 h2{
+        font-size: 1.2rem
+    }
+    #main_6 .text_1{
+        font-size: 1rem;
+    }
+    #main_6 ul{
+        width: 50%;
+    }
+    #main_6 .text_2{
+        font-size: .9rem;
+    }
+    #main_6 li img{
+        width: 120px;
+        height: 120px;
+    }
+
+    #main_7 .title{
+        font-size: 1rem;
+    }
+    #main_7 .title span{
+        font-size: 1.2rem;
+    }
+    #main_7 li img{
+        width: 100%;
+        height: 100px;
+    }
+    #main_7 li .text_1{
+        font-size: 1rem;
+    }
+    #main_7 li .text_2{
+        font-size: .9rem;
+    }
+    #main_7 .support .text_1{
+        font-size: 1.2rem;
+    }
+    #main_7 .support .text_3{
+        font-weight: .8rem;
+    }
+
+    #main_8{    
+        height: 1200px;
+    }
+    #main_8 .content h2{
+        font-size: 1.2rem;
+    }
+    #main_8 .content h3{
+        font-size: .9rem;
+    }
+    #main_8 ul{
+        margin-top: 20px;
+    }
+    #main_8 li{
+        max-width: none;
+        margin: 10px 0;
+        width: 90%;
+    }
+    #main_8 li .intro{
+        line-height: 1rem;
+        font-size: .8rem;
+    }
+    #main_8 li img{
+        height: 120px;
+    }
+
+    #main_9 .title{
+        font-size: 1.2rem;
+    }
+    #main_9 .title::before, 
+    #main_9 .title::after{
+        width: 25px;
+        height: 25px;
+    }
+
+    #main_10 h2{
+        font-size: 1.2rem;
+    }
+    #main_10 .text_1{
+       font-size: .8rem;
+    }
+    #main_10 li{
+        align-items: center;
+    }
+    #main_10 li .message .message_1{
+        font-size: .9rem;
+    }
+    #main_10 li .message .message_2{
+        font-size: .9rem;
+    }
+    #main_10 li img{
+        width: 30%;
+        height: 30%;
+        border: solid 2px rgb(240, 192, 73);
+    }
+
+    #main_11{    
+        background: url(/image/classbgsp.jpg) no-repeat center / cover;
+        height: 1000px;
+    }
+    #main_11 h2{
+        font-size: 1.2rem;
+    }
+    #main_11 p{
+        font-size: .8rem;
+    }
+    #main_11 .study{
+        width: 90%;
+    }
+    #main_11 th {
+        font-size: .9rem;
+      }
+    #main_11 td {
+        font-size: .8rem;
+    }
+
+    #main_13 h2{
+        font-size: 1.2rem;
+    }
+    #main_13 .contents{
+        visibility: hidden;
+        height: 0;
+    }
+    #main_13 .sp_contents{
+        visibility: visible;
+        height: auto;
+        margin: 0 auto;
+        width: 90%;
+    }
+    #main_13 details {
+        background-color: cornsilk;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    #main_13 summary .logo {
+        display: flex;
+        align-items: center;
+    }
+    #main_13 summary img {
+        width: 40px;
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+    #main_13 summary {
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: .5rem 2rem .5rem 1rem;
+        text-align: left;
+    }
+    #main_13 summary:hover{
+        text-decoration: underline 1px black;
+        text-underline-offset: 3px;
+    }
+    #main_13 summary::-webkit-details-marker {
+        display: none;
+    }
+    #main_13 summary .icon {
+        position: relative;
+    }
+    #main_13 summary .icon::before{
+        content: "";
+        position: absolute;
+        top: 30%;
+        width: 8px;
+        height: 8px; 
+        border-top: 4px solid black; 
+        border-right: 4px solid black; 
+        transform: rotate(135deg); 
+    }
+    #main_13 .sp_contents .text{
+        text-align: left;
+        padding: .5rem 1.1rem;
+        font-weight: bold;
+        font-size: .8rem;
+    }
+
+    #main_14{    
+        background: url(/image/bangkokbgsp.jpg) no-repeat center / cover;
+    }
+    #main_14 .content{
+        left: 5%;
+    }
+    #main_14 .content h2{
+        font-size: 1.2rem;
+    }
+    #main_14 .content p{
+        font-size: .8rem;
+    }
+    #main_14 .content li{
+        font-size: .8rem;
+    }
+    #main_14 .content h3{
+        font-size: .9rem;
+    }
+
+    #main_15 h2{
+        font-size: 1.2rem;
+    }
+    #main_15 h3{
+        font-size: .8rem;
+        margin-bottom: 0;
+    }
+    #main_15 .contents{
+        visibility: hidden;
+        height: 0;
+    }
+    #main_15 .sp_contents{
+        visibility: visible;
+        height: auto;
+    }
+    #main_15 .sp_contents{
+        width: 90%;  
+        border: 2px solid white;
+        margin: -60px auto 40px auto;
+        padding: 20px;
+        position: relative;
+    }
+    #main_15 .sp_contents .title{
+        white-space: nowrap;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(240, 192, 73);
+        padding: 0 1rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+        z-index: .8;
+    }
+    #main_15 .sp_contents .content{
+        display: flex;
+        position: relative;
+        margin: 30px 20px;
+        height: auto;
+    }
+    #main_15 .sp_contents .text_1{
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        background-color: white;
+        border-radius: 50%;
+        color: rgb(240, 192, 73);
+        font-size: .8rem;
+        font-weight: bold;
+    }
+    #main_15 .sp_contents .text_2{
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        right: 0;
+        transform: translateY(-50%);
+        font-size: .8rem;
+        font-weight: bold;
+        color: white;
+        text-align: left;
+        padding-left: 60px;
+    }
+
+    #main_16 .content h2{
+        font-size: 1.2rem;
+    }
+    #main_16 p{
+        font-size: .9rem;
+    }
+    #main_16 .title{
+        font-size: 1.2rem;
+    }
+    #main_16 .title::before, 
+    #main_16 .title::after{
+        width: 25px;
+        height: 25px;
+    }
+    
+    #main_17 .content{
+        font-size: .8rem;
+    }
+
+    #main_18 h2{
+        font-size: 1.2rem;
+    }
+    #main_18 h4{
+        font-size: .9rem;
+    }
+    
+    #main_19 h2{
+        font-size: 1.2rem;
+    }
+    #main_19 summary {
+        font-size: 1rem;
+        padding: .5rem 2rem .5rem 2.5rem;
+    }
+    #main_19 summary .icon {
+        margin-left: 1rem;
+    }
+    #main_19 .icon::before{
+        top: 25%;
+    }
+    #main_19 .text{
+        font-size: .8rem;
+    }
+
+    footer .page-top {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(236, 236, 236);
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: 10px;
+        bottom: 20px;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+    footer .page-top.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    footer .page-top::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        margin-top: 5px;
+        border-top: solid 3px black;
+        border-right: solid 3px black;
+        transform: rotate(-45deg);
+    }
+
+
+
+}
