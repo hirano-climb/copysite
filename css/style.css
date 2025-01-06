@@ -177,14 +177,16 @@ main{
     color: white;
     font-size: .9rem;
     border-radius: 20px;
-    padding: 2px 12px 0 15px;
+    padding: .1rem .9rem;
     font-weight: normal;
+    display: inline-flex;
+    align-items: center;
 }
 #main_1 li .x_btn:hover{
     background-color: rgb(0, 0, 0 , .7);
 }
 #main_1 li .x_btn img{
-    width: 12px;
+    width: .9em;
     margin-right: 5px;
 }
 #main_1 li .good_btn{
@@ -193,13 +195,14 @@ main{
     color: white;
     font-size: .9rem;
     border-radius: 20px;
-    padding: 2px 12px 0 15px;
+    padding: .1rem .9rem;
     font-weight: normal;
+    display: inline-flex;
+    align-items: center;
 }
 #main_1 li .good_btn img{
-    width: 15px;
+    width: 1em;
     margin-right: 5px;
-    vertical-align:text-top;
 }
 #main_1 li .share_btn{
     display: block;
@@ -207,8 +210,10 @@ main{
     color: white;
     font-size: .9rem;
     border-radius: 20px;
-    padding: 2px 15px 0 15px;
+    padding: .1rem .9rem;
     font-weight: normal;
+    display: inline-flex;
+    align-items: center;
 }
 
 #main_2{    
@@ -1017,7 +1022,6 @@ main{
     font-weight: bold;
 }
 #main_17 .content{
-
     max-width: 1100px;
     width: 90%;
     margin: 40px auto;
@@ -1043,8 +1047,11 @@ main{
     text-align: center;
 }
 #main_18 h2{
-    margin-top: 40px;
+    margin: 40px auto 0 auto;
     font-size: 1.8rem;
+    background: url(/image/icondocument.png) no-repeat left center / auto 1em;
+    width: fit-content;
+    padding: 0 0 0 1em;
 }
 #main_18 p{
     font-weight: bold;
@@ -1190,14 +1197,16 @@ footer li .x_btn{
     color: white;
     font-size: .9rem;
     border-radius: 20px;
-    padding: 2px 12px 0 15px;
+    padding: .1rem .9rem;
     font-weight: normal;
+    display: inline-flex;
+    align-items: center;
 }
 footer li .x_btn:hover{
     background-color: rgb(0, 0, 0 , .7);
 }
 footer li .x_btn img{
-    width: 12px;
+    width: .9em;
     margin-right: 5px;
 }
 footer li .good_btn{
@@ -1206,13 +1215,14 @@ footer li .good_btn{
     color: white;
     font-size: .9rem;
     border-radius: 20px;
-    padding: 2px 12px 0 15px;
+    padding: .1rem .9rem;
     font-weight: normal;
+    display: inline-flex;
+    align-items: center;
 }
 footer li .good_btn img{
-    width: 15px;
+    width: 1em;
     margin-right: 5px;
-    vertical-align:text-top;
 }
 footer li .share_btn{
     display: block;
@@ -1220,6 +1230,8 @@ footer li .share_btn{
     color: white;
     font-size: .9rem;
     border-radius: 20px;
-    padding: 2px 15px 0 15px;
+    padding: .1rem .9rem;
     font-weight: normal;
+    display: inline-flex;
+    align-items: center;
 }
