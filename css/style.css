@@ -91,7 +91,7 @@ header{
     grid-row-start: b;
     grid-row-end: c;
     position: relative;
-    background: url(/image/main.jpg) no-repeat center / cover;
+    background: url(../image/main.jpg) no-repeat center / cover;
     width: 100%;
     height: 500px;
     display: block;
@@ -221,7 +221,7 @@ main{
     grid-column-end: p1;
     grid-row-start: p1;
     grid-row-end: p2;
-    background: url(/image/introbottom.jpg) no-repeat center / cover;
+    background: url(../image/introbottom.jpg) no-repeat center / cover;
     width: 100%;
     height: 600px;
     display: block;
@@ -351,7 +351,7 @@ main{
     grid-column-end: p1;
     grid-row-start: p3;
     grid-row-end: p4;
-    background: url(/image/aboutsecondbg.jpg) no-repeat center / cover;
+    background: url(../image/aboutsecondbg.jpg) no-repeat center / cover;
     width: 100%;
     height: 400px;
     display: block;
@@ -545,7 +545,7 @@ main{
     grid-column-end: p1;
     grid-row-start: p7;
     grid-row-end: p8;
-    background: url(/image/teacherbg.jpg) no-repeat center / cover;
+    background: url(../image/teacherbg.jpg) no-repeat center / cover;
     width: 100%;
     height: 800px;
     display: block;
@@ -707,7 +707,7 @@ main{
     grid-column-end: p1;
     grid-row-start: p10;
     grid-row-end: p11;
-    background: url(/image/classbg.jpg) no-repeat center / cover;
+    background: url(../image/classbg.jpg) no-repeat center / cover;
     width: 100%;
     height: 800px;
     display: block;
@@ -851,7 +851,7 @@ main{
     grid-column-end: p1;
     grid-row-start: p13;
     grid-row-end: p14;
-    background: url(/image/bangkokbg.jpg) no-repeat center / cover;
+    background: url(../image/bangkokbg.jpg) no-repeat center / cover;
     width: 100%;
     height: 500px;
     display: block;
@@ -955,7 +955,7 @@ main{
     grid-row-end: p16;
     position: relative;
     text-align: center;
-    background: url(/image/specialdetail.jpg) no-repeat center / cover;
+    background: url(../image/specialdetail.jpg) no-repeat center / cover;
     width: 100%;
     height: 500px;
     display: block;
@@ -1049,7 +1049,7 @@ main{
 #main_18 h2{
     margin: 40px auto 0 auto;
     font-size: 1.8rem;
-    background: url(/image/icondocument.png) no-repeat left center / auto 1em;
+    background: url(../image/icondocument.png) no-repeat left center / auto 1em;
     width: fit-content;
     padding: 0 0 0 1em;
 }
